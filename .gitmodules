@@ -1,0 +1,3 @@
+[submodule "Peach/vendor/spdlog"]
+	path = Peach/vendor/spdlog
+	url = https://github.com/gabime/spdlog

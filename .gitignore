@@ -1,3 +1,25 @@
-.vs/
+# Premake generated files
+Makefile
+*.make
+premake5.lua.bak
+
+# Build output
 bin/
 bin-int/
+
+# Object files / build artifacts
+*.o
+*.obj
+*.so
+*.a
+*.out
+
+# IDE / editor
+.vscode/
+.vs/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
