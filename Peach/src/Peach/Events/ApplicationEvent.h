@@ -2,8 +2,6 @@
 
 #include "Event.h"
 
-#include <sstream>
-
 namespace Peach
 {
     class WindowResizeEvent : public Event

@@ -2,11 +2,6 @@
 
 #include "Peach/core.h"
 
-#include <functional>
-#include <ostream>
-#include <string>
-#include <type_traits>
-
 #include "spdlog/fmt/ostr.h"
 
 namespace Peach {
