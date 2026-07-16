@@ -1,8 +1,13 @@
 #pragma once
 
-namespace Peach{
+#include "core.h"
+#include "Events/Event.h"
 
-    class Application{
+namespace Peach
+{
+
+    class Application
+    {
     public:
         Application();
         virtual ~Application();
@@ -11,5 +16,5 @@ namespace Peach{
     };
 
     // To be defined in CLIENT
-    Application* CreateApplication();
+    Application *CreateApplication();
 }

@@ -1,8 +1,9 @@
 #pragma once
 
-extern Peach::Application* Peach::CreateApplication();
+extern Peach::Application *Peach::CreateApplication();
 
-int main(int argc, char** argv){
+int main(int argc, char **argv)
+{
 
     Peach::Log::Init();
     PEACH_CORE_WARN("Initialized logging");

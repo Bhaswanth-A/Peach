@@ -1,16 +1,25 @@
 #include "Application.h"
 
-namespace Peach{
+#include "Peach/Events/ApplicationEvent.h"
+#include "Peach/Log.h"
 
-    Application::Application(){
+namespace Peach
+{
 
+    Application::Application()
+    {
     }
 
-    Application::~Application(){
-
+    Application::~Application()
+    {
     }
 
-    void Application::Run(){
-        while(true);
+    void Application::Run()
+    {
+        WindowResizeEvent e(1200, 720);
+        PEACH_TRACE(e); 
+        
+        while (true)
+            ;
     }
 }
