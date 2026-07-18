@@ -2,6 +2,7 @@
 
 // For use by Peach applications
 #include "Peach/Application.h"
+#include "Peach/Layer.h"
 #include "Peach/Log.h"
 
 // -- Entry Point ---------------------------------------------

@@ -22,7 +22,7 @@ namespace Peach
     class Window
     {
     public:
-        using EventCallbackFn = std::function<void(Event &)>;
+        using EventCallbackFn = std::function<void(Event &e)>;
 
         virtual ~Window();
 
